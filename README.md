@@ -1,15 +1,17 @@
-# Modular Math Tool
+# Modular Math Tool 
 
 ![Python](https://img.shields.io/badge/python-3.11-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-Ein sauberes, modulares Python-Projekt für Grundrechenarten mit Unit Tests und User Input.
+Ein modulares Python-Projekt für Grundrechenarten mit **User Input** und **Unit Tests**.
 
 
 ## Features
-- Add, Subtract, Multiply, Divide
-- User input support
-- Division by zero handling
-- Unit tests included
+- Addition, Subtraction, Multiplication, Division
+- Unterstützung für Benutzereingaben
+- Handling von Division durch Null
+- Unit Tests inklusive
+- Modularer Aufbau für einfache Erweiterung
 
 
 ## Installation
@@ -19,28 +21,62 @@ git clone https://github.com/your-username/modular-math-tool.git
 cd modular-math-tool
 pip install -r requirements.txt
 ```
+Hinweis: Für dieses Projekt werden nur Standard-Python-Bibliotheken verwendet, daher ist requirements.txt optional.
 
 
-Usage 
+## Usage
 
-``` bash
+```bash
 python main.py
 ```
 
-Example:
-Willkommen beim Modular Math Tool 🧮
+### Beispiel:
+```
+Willkommen beim Modular Math Tool 
 Gib die erste Zahl ein: 10
 Gib die zweite Zahl ein: 5
 10.0 + 5.0 = 15.0
 10.0 - 5.0 = 5.0
 10.0 * 5.0 = 50.0
 10.0 / 5.0 = 2.0
+```
 
-Testing
+## Testing
 
 ```bash
 pytest tests/
 ```
 
-License
-    - MIT License
+Alle Unit Tests werden automatisch ausgeführt, um die Funktionen zu überprüfen.
+
+
+## Project Structure
+```
+modular-math-tool/
+│── main.py
+│── math_operations.py
+│── tests/
+│   └── test_math_operations.py
+│── requirements.txt
+│── README.md
+│── LICENSE
+│── .gitignore
+```
+
+## License
+
+- Dieses Projekt ist unter der MIT License lizenziert.
+
+
+## Future Improvements
+
+- Weitere mathematische Funktionen hinzufügen (z.B. Potenz, Quadratwurzel)
+- GUI oder Web-Interface
+- Erweiterte Eingabevalidierung und Fehlermanagement
+- Continuous Integration (CI) mit GitHub Actions
+
+
+## Author
+
+Erstellt von Aram Mehraban als Beispielprojekt für modulares Python-Design
+
