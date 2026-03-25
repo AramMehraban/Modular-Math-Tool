@@ -1,1 +1,2 @@
-# Keine Python Libaray 
+# Nur Standard-Python-Bibliotheken erforderlich
+# Abhängigkeiten können hier in Zukunft hinzugefügt werden
