@@ -17,7 +17,7 @@ Ein modulares Python-Projekt für Grundrechenarten mit **User Input** und **Unit
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/modular-math-tool.git
+git clone https://github.com/AramMehraban/modular-math-tool.git
 cd modular-math-tool
 pip install -r requirements.txt
 ```
@@ -63,10 +63,6 @@ modular-math-tool/
 │── .gitignore
 ```
 
-## License
-
-- Dieses Projekt ist unter der MIT License lizenziert.
-
 
 ## Future Improvements
 
@@ -77,6 +73,6 @@ modular-math-tool/
 
 
 ## Author
-
-Erstellt von Aram Mehraban als Beispielprojekt für modulares Python-Design
+Aram Mehraban 
+- Beispielprojekt für modulares Python-Design
 
